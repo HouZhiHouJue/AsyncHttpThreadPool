@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3C2BD8F8-0588-4F4D-B824-41B4C3B22B30}"
+	ProjectSection(SolutionItems) = preProject
+		AsyncHttpThreadQueue.vsmdi = AsyncHttpThreadQueue.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncHttpThreadPool", "AsyncHttpThreadPool\AsyncHttpThreadPool.csproj", "{D027B79D-9D45-451E-AF44-A322D4A11028}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncHttpThreadPoolDemo", "AsyncHttpThreadPoolDemo\AsyncHttpThreadPoolDemo.csproj", "{BC690EE1-F3FB-4A35-89DA-4DBD0C863D50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncHttpThreadPoolDemoTest", "AsyncHttpThreadPoolDemoTest\AsyncHttpThreadPoolDemoTest.csproj", "{A0EA2BF9-C025-4C37-B10B-715ED79B4C94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPoolDemoTest", "AsyncHttpThreadPoolTest\ThreadPoolDemoTest.csproj", "{20CD36FF-61B2-4411-A4E7-DFE4AC9A211C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPoolDemo", "ThreadQueuePool\ThreadPoolDemo.csproj", "{531FF368-932C-475C-924D-CDC71094F3F6}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = AsyncHttpThreadQueue.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D027B79D-9D45-451E-AF44-A322D4A11028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D027B79D-9D45-451E-AF44-A322D4A11028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D027B79D-9D45-451E-AF44-A322D4A11028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D027B79D-9D45-451E-AF44-A322D4A11028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC690EE1-F3FB-4A35-89DA-4DBD0C863D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC690EE1-F3FB-4A35-89DA-4DBD0C863D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC690EE1-F3FB-4A35-89DA-4DBD0C863D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC690EE1-F3FB-4A35-89DA-4DBD0C863D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0EA2BF9-C025-4C37-B10B-715ED79B4C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0EA2BF9-C025-4C37-B10B-715ED79B4C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0EA2BF9-C025-4C37-B10B-715ED79B4C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0EA2BF9-C025-4C37-B10B-715ED79B4C94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20CD36FF-61B2-4411-A4E7-DFE4AC9A211C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CD36FF-61B2-4411-A4E7-DFE4AC9A211C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CD36FF-61B2-4411-A4E7-DFE4AC9A211C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CD36FF-61B2-4411-A4E7-DFE4AC9A211C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531FF368-932C-475C-924D-CDC71094F3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531FF368-932C-475C-924D-CDC71094F3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531FF368-932C-475C-924D-CDC71094F3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531FF368-932C-475C-924D-CDC71094F3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
